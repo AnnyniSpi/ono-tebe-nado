@@ -10,8 +10,8 @@
   display: block;
   max-width: 240px;
   color: rgb(0, 0, 0);
-  font-size: 18px;
   font-weight: 400;
+  font-size: 18px;
   line-height: 24px;
 }
 .header {
@@ -41,8 +41,8 @@
 }
 .header__link {
   color: rgb(0, 0, 0);
-  font-size: 18px;
   font-weight: 400;
+  font-size: 18px;
   line-height: 21px;
 }
 .header__logo-image {
@@ -54,25 +54,25 @@
   background: url('../images/cover.jpg') center center / cover no-repeat;
 }
 .cover__title{
-  letter-spacing: 0.3em;
   position: relative;
   z-index: 1;
   color: rgb(255, 255, 255);
   font-weight: 700;
   font-size: 100px;
   line-height: 115%;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
 }
 .aligned-text {
   display: block;
 }
 .aligned-text_center {
-  text-align: center;
   line-height: 1.4;
+  text-align: center;
 }
 .aligned-text_right{
-  text-align: right;
   line-height: 1;
+  text-align: right;
 }
 .letter-spacing-extended { 
   letter-spacing: 0.6em; 
@@ -226,8 +226,8 @@
 }
 .footer__menu-link {
   color: rgb(0, 0, 0);
-  font-size: 18px;
   font-weight: 400;
+  font-size: 18px;
   line-height: 21px;
   text-align: center;
 }
