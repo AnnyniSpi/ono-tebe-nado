@@ -1,4 +1,4 @@
-.overlay{
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -36,7 +36,7 @@
 .header__links-list-item_no-bullit {
   list-style: none;
 }
-.header__link_active{
+.header__link_active {
   text-decoration: none;
 }
 .header__link {
@@ -53,7 +53,7 @@
   padding: 165px 50px 53px;
   background: url('../images/cover.jpg') center center / cover no-repeat;
 }
-.cover__title{
+.cover__title {
   position: relative;
   z-index: 1;
   color: rgb(255, 255, 255);
@@ -70,15 +70,15 @@
   line-height: 1.4;
   text-align: center;
 }
-.aligned-text_right{
+.aligned-text_right {
   line-height: 1;
   text-align: right;
 }
-.letter-spacing-extended { 
-  letter-spacing: 0.6em; 
+.letter-spacing-extended {
+  letter-spacing: 0.6em;
 }
-.no-letter-spacing { 
-  letter-spacing: 0em; 
+.no-letter-spacing {
+  letter-spacing: 0em;
 }
 .cover__description {
   position: relative;
@@ -110,7 +110,7 @@
   background: transparent;
   cursor: pointer;
 }
-.lots{
+.lots {
   padding: 179px 24px 146px;
 }
 .lots__heading {
@@ -135,7 +135,7 @@
   height: 100%;
   text-decoration: none;
 }
-.card{
+.card {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -235,7 +235,7 @@
   display: flex;
   gap: 48px;
 }
-.footer__menu-list-item, .footer__social-list-item{
+.footer__menu-list-item, .footer__social-list-item {
   list-style: none;
 }
 .footer__social-icon {
