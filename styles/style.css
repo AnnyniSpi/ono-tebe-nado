@@ -1,7 +1,6 @@
 .overlay {
   position: absolute;
-  top: 0;
-  left: 0;
+  inset: 0;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
@@ -12,7 +11,8 @@
   color: rgb(0, 0, 0);
   font-weight: 400;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 25px;
+  font-style: normal;
 }
 .header {
   display: grid;
@@ -20,7 +20,6 @@
   justify-items: end;
   align-items: center;
   gap: 40px;
-  min-height: 293px;
   padding: 92px 50px;
 }
 .header__address {
@@ -38,6 +37,7 @@
 }
 .header__link_active {
   text-decoration: none;
+  pointer-events: none;
 }
 .header__link {
   color: rgb(0, 0, 0);
@@ -104,11 +104,11 @@
   font-weight: 500;
   font-size: 22px;
   line-height: 26px;
-  letter-spacing: 0%;
   text-align: center;
   text-transform: uppercase;
   background: transparent;
   cursor: pointer;
+  border: 1px solid rgb(255, 255, 255);
 }
 .lots {
   padding: 179px 24px 146px;
@@ -123,6 +123,7 @@
 }
 .lots__card-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
   margin-top: 27px;
 }
@@ -140,18 +141,21 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 334px;
+  width: 334px;
   height: 100%;
   padding: 51px 40px 48px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .card_type_film {
-  background: url('../images/card-lot-01.jpg') center center / cover no-repeat;
+  background-image: url('../images/card-lot-01.jpg');
 }
 .card_type_book {
-  background: url('../images/card-lot-02.jpg') center center / cover no-repeat;
+  background: url('../images/card-lot-02.jpg');
 }
 .card_type_picture {
-  background: url('../images/card-lot-03.jpg') center center / cover no-repeat;
+  background: url('../images/card-lot-03.jpg');
 }
 .card__title {
   position: relative;
@@ -190,7 +194,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 244px;
+  width: 146%;
   height: 240px;
   border-radius: 100%;
   background-color: rgb(0, 0, 0);
@@ -219,7 +223,7 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 0 50px 88px;
+  padding: 2px 50px 88px;
 }
 .footer__menu {
   text-align: center;
@@ -228,7 +232,7 @@
   color: rgb(0, 0, 0);
   font-weight: 400;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 23px;
   text-align: center;
 }
 .footer__social-list {
@@ -237,6 +241,9 @@
 }
 .footer__menu-list-item, .footer__social-list-item {
   list-style: none;
+}
+.footer__menu-link_active {
+  pointer-events: none;
 }
 .footer__social-icon {
   height: 48px;
